@@ -7,7 +7,7 @@
   --background-bg: #111519;
   --background-fg: #212529;
   --text-title: #E9ECEF;
-  --text-body: ##CED4DA;
+  --text-body: #CED4DA;
   --red: #F7326E;
   --green: #3CB86C;
   --blue: #1F7FF0;
@@ -53,4 +53,8 @@ h1, h2, h3, h4, h5, h6, strong {
 
 li {
   list-style: none;
+}
+
+.invert-svg {
+  filter: invert(1)
 }

@@ -1,9 +1,13 @@
+/* eslint-disable @next/next/no-img-element */
 import type { NextPage } from 'next'
-
+import styles from '../styles/home.module.css'
+import { AboutMe } from './components/about-me'
+import { Header } from './components/header'
 const Home: NextPage = () => {
   return (
-    <div>
-      <h1 className="text-3xl text-text-title">Hello World!</h1>
+    <div className={styles.container}>
+      <Header />
+      <AboutMe />
     </div>
   )
 }
