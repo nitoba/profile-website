@@ -11,6 +11,7 @@
   --red: #F7326E;
   --green: #3CB86C;
   --blue: #1F7FF0;
+  --red-filter: invert(39%) sepia(75%) saturate(4925%) hue-rotate(323deg) brightness(98%) contrast(98%)
 }
 
 * {

@@ -7,13 +7,14 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
+      "modal-bg": "rgba(0, 0, 0, 0.5)",
       "background-bg": "var(--background-bg)", 
       "background-fg": "var(--background-fg)", 
       "text-title": "var(--text-title)", 
       "text-body": "var(--text-body)",
       "red": "var(--red)",
       "green": "var(--green)",
-      "blue": "var(--blue)", 
+      "blue": "var(--blue)",
     },
     fontFamily: {
       // sans: ['Poppins', 'sans-serif'],
