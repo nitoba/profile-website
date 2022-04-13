@@ -35,7 +35,7 @@ export function AboutMe() {
           </span>
           
           <div className="mt-12">
-                <SocialLinks />
+            <SocialLinks />
           </div>
 
           <span className="mt-12 block text-lg text-text-title tracking-widest">CONQUISTAS IMPORTANTES</span>

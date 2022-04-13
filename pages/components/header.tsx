@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 export function Header () {
     return (
         <header className='pt-12 flex justify-between items-center'>
