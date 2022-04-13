@@ -11,9 +11,6 @@ export function SocialLinks() {
             <a href="https://github.com/Nitoba/" target="_blank" className='hover:scale-125 transition-all duration-300' rel="noreferrer">
             <img src="assets/icons/github.svg" alt="Github icon" />
             </a>
-            <a href="mailto:brukum2@gmail.com" target="_blank" className='hover:scale-125 transition-all duration-300' rel="noreferrer">
-            <img src="assets/icons/email.svg" alt="Email icon" />
-            </a>
         </div>
     )
 }
