@@ -4,6 +4,7 @@ import styles from '../styles/home.module.css'
 import { AboutMe } from './components/about-me'
 import { Footer } from './components/footer'
 import { Header } from './components/header'
+import { TechsUsed } from './components/techs-used'
 import { Testimonies } from './components/testimonies'
 const Home: NextPage = () => {
   return (
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Header />
       <AboutMe />
+      <TechsUsed />
       <Testimonies />
     </div>
     <Footer />
