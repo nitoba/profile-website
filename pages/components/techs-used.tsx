@@ -21,7 +21,7 @@ export function TechsUsed() {
                 </p>
             </Modal>
         )}
-        <section className="mt-36">
+        <section id="techs" className="mt-36">
             <h2 className="text-text-title text-3xl">Tecnologias que ultilizo</h2>
             <div className="grid grid-cols-3 mt-16 gap-4">
                 <div onClick={() => selectTech('node')} className="cursor-pointer hover:brightness-90 transition-all duration-300 group bg-background-fg gap-y-5 rounded-2xl flex flex-col items-center justify-center p-4">

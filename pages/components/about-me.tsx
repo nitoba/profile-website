@@ -12,7 +12,7 @@ export function AboutMe() {
       {
         modalIsOpen && <ModalHistory onClose={() => setModalIsOpen(false)} /> 
       }
-      <section className='grid grid-cols-2 mt-28 gap-x-7'>
+      <section id="about" className='grid grid-cols-2 mt-28 gap-x-7'>
         <div className='w-full h-12'>
           <span className='text-green font-light text-xl'>SOBRE MIM</span>
           <h2 className="text-text-title text-3xl mt-5">Olá 👋🏽 prazer, Bruno.</h2>
