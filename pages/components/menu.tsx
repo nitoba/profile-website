@@ -37,7 +37,7 @@ export function Menu({ onClose }: { onClose: () => void }) {
                 </header>
                 <nav>
                 <ul className="flex flex-col">
-                    <li className="text-text-title group"> 
+                    <li className="text-text-title text-right group"> 
                         <a 
                             className="md:group-hover:text-red transition-all duration-300" 
                             href="#about" 
@@ -45,7 +45,7 @@ export function Menu({ onClose }: { onClose: () => void }) {
                             Sobre mim
                         </a>
                     </li>
-                    <li className="mt-6 text-text-title group"> 
+                    <li className="mt-6 text-text-title text-right group"> 
                         <a 
                             className="md:group-hover:text-red transition-all duration-300" 
                             href="#testimonials" 
@@ -53,7 +53,7 @@ export function Menu({ onClose }: { onClose: () => void }) {
                             Depoimentos
                         </a>
                     </li>
-                    <li className="mt-6 text-text-title group"> 
+                    <li className="mt-6 text-text-title text-right group"> 
                         <a 
                             className="md:group-hover:text-red transition-all duration-300" 
                             href="#techs" 
@@ -61,7 +61,7 @@ export function Menu({ onClose }: { onClose: () => void }) {
                             Tecnologias
                         </a>
                     </li>
-                    <li className="mt-6 text-text-title group"> 
+                    <li className="mt-6 text-text-title text-right group"> 
                         <a 
                             className="md:group-hover:text-red transition-all duration-300" 
                             href="#contact"
