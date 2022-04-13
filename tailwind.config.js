@@ -4,6 +4,11 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
+  variants: {
+    extend: {
+      display: ['group-hover'],
+    },
+  },
   theme: {
     extend: {},
     colors: {
@@ -15,9 +20,6 @@ module.exports = {
       "red": "var(--red)",
       "green": "var(--green)",
       "blue": "var(--blue)",
-    },
-    fontFamily: {
-      // sans: ['Poppins', 'sans-serif'],
     },
   },
   plugins: [
