@@ -2,6 +2,7 @@
 import type { NextPage } from 'next'
 import styles from '../styles/home.module.css'
 import { AboutMe } from './components/about-me'
+import { ContactMe } from './components/contact-me'
 import { Footer } from './components/footer'
 import { Header } from './components/header'
 import { TechsUsed } from './components/techs-used'
@@ -14,6 +15,7 @@ const Home: NextPage = () => {
       <AboutMe />
       <TechsUsed />
       <Testimonies />
+      <ContactMe />
     </div>
     <Footer />
     </>
