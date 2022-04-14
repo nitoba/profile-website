@@ -45,6 +45,18 @@ export function AboutMe() {
 
           <span className="mt-12 block text-lg text-text-title tracking-widest">CONQUISTAS IMPORTANTES</span>
           <ul className="mt-10">
+            <a href="https://blokbioscience.com.br/" target="_blank" rel="noreferrer">
+              <li className="flex gap-4 items-center mb-5 group">
+                <img src="assets/icons/check.svg" alt="Check icon" />
+                <span className="group-hover:text-red transition-all duration-300 text-text-body">Dev Mobile at Blok Bio Science</span>
+              </li>
+            </a>
+            <a href="https://globalpandemicshield.com" target="_blank" rel="noreferrer">
+              <li className="flex gap-4 items-center mb-5 group">
+                <img src="assets/icons/check.svg" alt="Check icon" />
+                <span className="group-hover:text-red transition-all duration-300 text-text-body">Full Stack Dev at Global Pandemic Shield</span>
+              </li>
+            </a>
             <a href="https://www.youtube.com/watch?v=7eSJuPSfGrQ" target="_blank" rel="noreferrer">
               <li className="flex gap-4 items-center mb-5 group">
                 <img src="assets/icons/check.svg" alt="Check icon" />
@@ -61,12 +73,6 @@ export function AboutMe() {
               <li className="flex gap-4 items-center mb-5 group">
                 <img src="assets/icons/check.svg" alt="Check icon" />
                 <span className="group-hover:text-red transition-all duration-300 text-text-body">Flutter Mobile Developer at Sthorm</span>
-              </li>
-            </a>
-            <a href="https://globalpandemicshield.com" target="_blank" rel="noreferrer">
-              <li className="flex gap-4 items-center mb-5 group">
-                <img src="assets/icons/check.svg" alt="Check icon" />
-                <span className="group-hover:text-red transition-all duration-300 text-text-body">Full Stack Dev at Global Pandemic Shield</span>
               </li>
             </a>
           </ul>

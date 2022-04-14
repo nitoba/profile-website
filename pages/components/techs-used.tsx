@@ -16,9 +16,27 @@ export function TechsUsed() {
         <>
         { modalIsOpen && (
             <Modal onClose={()=> setModalIsOpen(false)}>
-                <p className="text-text-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, inventore fugit dolorem molestias maiores rem mollitia ullam eveniet in labore fugiat sapiente corrupti? Molestiae sunt debitis accusantium cumque perspiciatis assumenda.
-                </p>
+                {
+                    selectedTech === "node" && (
+                        <p className="text-text-body gap-4">
+                            <img src="assets/images/NodeJs.svg" alt="nodejs" className="inline-block" />
+                        </p>
+                    )
+                }
+                {
+                    selectedTech === "react" && (
+                        <p className="text-text-body gap-4">
+                            <img src="assets/images/ReactJs.svg" alt="reactjs" className="inline-block" />
+                        </p>
+                    )
+                }
+                {
+                    selectedTech === "flutter" && (
+                        <p className="text-text-body gap-4">
+                            <img src="assets/images/Flutter.svg" alt="flutter" className="inline-block" />
+                        </p>
+                    )
+                }
             </Modal>
         )}
         <section id="techs" className="mt-36">
