@@ -45,23 +45,30 @@ export function AboutMe() {
 
           <span className="mt-12 block text-lg text-text-title tracking-widest">CONQUISTAS IMPORTANTES</span>
           <ul className="mt-10">
-            <li className="flex gap-4 items-center mb-5">
-              <img src="assets/icons/check.svg" alt="Check icon" />
-              <span className="text-text-body">Conquista 1</span>
-            </li>
-            <li className="flex gap-4 items-center mb-5">
-              <img src="assets/icons/check.svg" alt="Check icon" />
-              <span className="text-text-body">Conquista 2</span>
-            </li>
-            <li className="flex gap-4 items-center mb-5">
-              <img src="assets/icons/check.svg" alt="Check icon" />
-              <span className="text-text-body">Conquista 3</span>
-            </li>
-
-            <li className="flex gap-4 items-center mb-5">
-              <img src="assets/icons/check.svg" alt="Check icon" />
-              <span className="text-text-body">Conquista 4</span>
-            </li>
+            <a href="https://www.youtube.com/watch?v=7eSJuPSfGrQ" target="_blank" rel="noreferrer">
+              <li className="flex gap-4 items-center mb-5 group">
+                <img src="assets/icons/check.svg" alt="Check icon" />
+                <span className="group-hover:text-red transition-all duration-300 text-text-body">Palestrante no Meetup da Flutterando</span>
+              </li>
+            </a>
+            <a href="https://maratona.brasilmaisti.com.br/finalistas" target="_blank" rel="noreferrer">
+              <li className="flex gap-4 items-center mb-5 group">
+                <img src="assets/icons/check.svg" alt="Check icon" />
+                <span className="group-hover:text-red transition-all duration-300 text-text-body">Finalista Maratona Unicef Samsung</span>
+              </li>
+            </a>
+            <a href="https://sthorm.io/" target="_blank" rel="noreferrer">
+              <li className="flex gap-4 items-center mb-5 group">
+                <img src="assets/icons/check.svg" alt="Check icon" />
+                <span className="group-hover:text-red transition-all duration-300 text-text-body">Flutter Mobile Developer at Sthorm</span>
+              </li>
+            </a>
+            <a href="https://globalpandemicshield.com" target="_blank" rel="noreferrer">
+              <li className="flex gap-4 items-center mb-5 group">
+                <img src="assets/icons/check.svg" alt="Check icon" />
+                <span className="group-hover:text-red transition-all duration-300 text-text-body">Full Stack Dev at Global Pandemic Shield</span>
+              </li>
+            </a>
           </ul>
         </div>
         <div className={`${styles.card} flex items-end justify-end rounded-t-xl`}>
