@@ -16,7 +16,12 @@ export function AboutMe() {
         <div className='w-full h-12'>
           <span className='text-green font-light text-xl'>SOBRE MIM</span>
           <h2 className="text-text-title text-3xl mt-5">Olá 👋🏽 prazer, Bruno.</h2>
-          <p className='text-text-body text-ellipsis text-left mt-5 line-clamp-4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime quae illo magni minus eius natus fugiat enim ipsa illum harum doloremque minima, autem assumenda beatae voluptatibus commodi placeat nihil recusandae.</p>
+          <p className='text-text-body text-ellipsis text-left mt-5 line-clamp-3'>
+            Sou um desenvolvedor apaixonado por tecnologia que fazem parte do ecosistema backend, front end e mobile. 
+            Tenho facilidade em trabalhar em equipe o que me da oportunidade de pensar de maneiras diferentes para resolver problemas aumentando cada vez mais meu aprendizado.
+            Sempre estou buscando aprimorar minhas habilidades estudando o que está acontecendo no mercado e buscando novas oportunidades.
+            Gosto muito de aprender coisas novas relacionadas ao universo da tecnologia e por isso sempre me disponho a estudar e aplicá-las.
+          </p>
           <span
             onClick={() => setModalIsOpen(true)}
             className='

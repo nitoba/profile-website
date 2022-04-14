@@ -54,11 +54,12 @@ export function ModalHistory({ onClose }: ModalHistoryProps) {
 
                 <section className="mt-8">
                     <p className="text-text-body">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique impedit autem reiciendis repellendus deleniti sit, quis, eligendi expedita placeat iusto saepe quod explicabo earum quaerat assumenda delectus harum deserunt perferendis?
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, eius odio. Quaerat quas reprehenderit modi praesentium, nemo sint minima temporibus beatae fugit fuga nihil saepe exercitationem sit aperiam perspiciatis optio.
+                        Sou um desenvolvedor apaixonado por tecnologia que fazem parte do ecosistema backend, front end e mobile. 
+                        Tenho facilidade em trabalhar em equipe o que me da oportunidade de pensar de maneiras diferentes para resolver problemas aumentando cada vez mais meu aprendizado.
                     </p>
                     <p className="text-text-body mt-2">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quos non ratione, aperiam dolorum asperiores vel amet saepe. Quibusdam id exercitationem consequatur expedita, rem officiis eaque sit omnis totam sint?
+                        Sempre estou buscando aprimorar minhas habilidades estudando o que está acontecendo no mercado e buscando novas oportunidades.
+                        Gosto muito de aprender coisas novas relacionadas ao universo da tecnologia e por isso sempre me disponho a estudar e aplicá-las.
                     </p>
                 </section>
                 <div className="mt-12">
