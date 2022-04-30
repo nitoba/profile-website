@@ -12,7 +12,7 @@ export function AboutMe() {
       {
         modalIsOpen && <ModalHistory onClose={() => setModalIsOpen(false)} /> 
       }
-      <section id="about" className='grid grid-cols-2 mt-28 gap-x-7'>
+      <section id="about" className='sm:flex sm:flex-cols lg:grid lg:grid-cols-2 mt-28 gap-x-7'>
         <div className='w-full h-12'>
           <span className='text-green font-light text-xl'>SOBRE MIM</span>
           <h2 className="text-text-title text-3xl mt-5">Olá 👋🏽 prazer, Bruno.</h2>
@@ -77,7 +77,7 @@ export function AboutMe() {
             </a>
           </ul>
         </div>
-        <div className={`${styles.card} flex items-end justify-end rounded-t-xl`}>
+        <div className={`${styles.card} sm:mt-0 mt-[40rem] rounded-t-xl`}>
           <img 
             src="assets/images/profile.jpg" 
             alt="Profile photo" 

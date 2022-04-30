@@ -2,7 +2,7 @@ import { SocialLinks } from "./social-links";
 
 export function Footer() {
     return (
-        <footer className="flex h-28 w-full bg-background-fg relative mt-6">
+        <footer className="flex sm:flex-row flex-col pt-6 sm:pt-0 h-28 w-full bg-background-fg relative mt-6">
             <div className="flex flex-col items-center justify-end w-full mb-2">
                 <SocialLinks />
                 <span className="text-text-body font-light text-xs mt-3">
@@ -17,11 +17,12 @@ export function Footer() {
                 gap-x-1
                 text-text-body
                 text-xs
-                absolute
+                sm:absolute static
                 bottom-0
                 right-0
                 mb-4
-                mr-4
+                sm:mr-4 
+                mr-0
                 "
             >   
                 <img src="assets/icons/arrow-up.svg" alt="Arrow up icon" />
