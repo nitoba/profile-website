@@ -40,7 +40,7 @@ export function Modal({ onClose, children }: ModalProps) {
                 initial={animationClose}
                 animate={controls}
                 transition={{ duration: 0.2 }}
-                className="bg-background-fg w-[40%] rounded-xl px-6 py-9">
+                className="bg-background-fg xl:w-[40%] w-[80%] rounded-xl px-6 py-9 ">
                 <header className="flex justify-end mb-8">
                     <img
                         onClick={onCloseModal}
@@ -48,7 +48,9 @@ export function Modal({ onClose, children }: ModalProps) {
                         src="assets/icons/close.svg"
                         alt="Close icon" />
                 </header>
-                {children}
+                <main className="w-full flex justify-center">
+                    {children}
+                </main>
             </motion.div>
         </div>
     )
