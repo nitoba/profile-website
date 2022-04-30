@@ -38,7 +38,7 @@ export function ModalHistory({ onClose }: ModalHistoryProps) {
                 initial={animationClose}
                 animate={controls}
                 transition={{ duration: 0.2 }}
-                className="bg-background-fg w-[40%] rounded-xl px-6 py-9">
+                className="bg-background-fg xl:w-[40%] w-[80%] rounded-xl px-6 py-9">
                 <header className="flex items-center justify-between">
                     <img
                         className="rounded-full h-12 w-12"

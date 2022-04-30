@@ -11,6 +11,14 @@ module.exports = {
   },
   theme: {
     extend: {},
+    screens: {
+      'tb': '990px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     colors: {
       "modal-bg": "rgba(0, 0, 0, 0.5)",
       "background-bg": "var(--background-bg)", 
