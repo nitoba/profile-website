@@ -54,7 +54,7 @@ export function ModalHistory({ onClose }: ModalHistoryProps) {
 
                 <section className="mt-8">
                     <p className="text-text-body">
-                        Sou um desenvolvedor apaixonado por tecnologia que fazem parte do ecosistema backend, front end e mobile. 
+                        Sou um desenvolvedor apaixonado por tecnologias que fazem parte do ecosistema backend, front end e mobile. 
                         Tenho facilidade em trabalhar em equipe o que me da oportunidade de pensar de maneiras diferentes para resolver problemas aumentando cada vez mais meu aprendizado.
                     </p>
                     <p className="text-text-body mt-2">
