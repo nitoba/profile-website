@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import { motion, useAnimation } from "framer-motion";
-import { SocialLinks } from "./social-links";
+import SocialLinks from "./social-links";
 
-export function Menu({ onClose }: { onClose: () => void }) {
+export default function Menu({ onClose }: { onClose: () => void }) {
 
     const animationOpen = { transform: "translateY(0rem)", opacity: 1 };
     const animationClose = { transform: "translateY(-24rem)", opacity: 0 };

@@ -1,4 +1,3 @@
-import { SocialLinks } from "./social-links"
 import { motion, useAnimation } from "framer-motion"
 import { ReactNode } from "react"
 /* eslint-disable @next/next/no-img-element */
@@ -7,7 +6,7 @@ type ModalProps = {
     children: ReactNode,
 }
 
-export function Modal({ onClose, children }: ModalProps) {
+export default function Modal({ onClose, children }: ModalProps) {
     const animationOpen = { opacity: 1, scale: 1 }
     const animationClose = { opacity: 0, scale: 0.9 }
 

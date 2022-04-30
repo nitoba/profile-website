@@ -1,10 +1,10 @@
 import { motion, useAnimation } from "framer-motion";
 import { useState } from "react";
-import { Menu } from "./menu";
-import { SocialLinks } from "./social-links";
+import Menu  from "./menu";
+import SocialLinks from "./social-links";
 
 /* eslint-disable @next/next/no-img-element */
-export function Header () {
+export default function Header () {
     const [menuIsOpen, setMenuIsOpen] = useState(false);
     return (
       <>

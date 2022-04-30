@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { Modal } from "./modal";
+import Modal from "./modal";
 
 /* eslint-disable @next/next/no-img-element */
-export function TechsUsed() {
+export default function TechsUsed() {
 
     const [modalIsOpen, setModalIsOpen] = useState(false);
     const [selectedTech, setSelectedTech] = useState<"node" | "react" | "flutter">("node");

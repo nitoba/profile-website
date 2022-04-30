@@ -1,11 +1,11 @@
-import { SocialLinks } from "./social-links"
+import SocialLinks from "./social-links"
 import { motion, useAnimation } from "framer-motion"
 /* eslint-disable @next/next/no-img-element */
 type ModalHistoryProps = {
     onClose: () => void
 }
 
-export function ModalHistory({ onClose }: ModalHistoryProps) {
+export default function ModalHistory({ onClose }: ModalHistoryProps) {
     const animationOpen = { opacity: 1, scale: 1 }
     const animationClose = { opacity: 0, scale: 0.9 }
 

@@ -1,4 +1,4 @@
-export function SocialLinks() {
+export default function SocialLinks() {
     return (
         <div className='flex items-center gap-8'>
             <a href="https://instagram.com/nito.b.a" target="_blank" className='hover:scale-125 transition-all duration-300' rel="noreferrer">

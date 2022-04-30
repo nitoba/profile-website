@@ -5,7 +5,7 @@ type TestimonyCardProps = {
     description: string;
     userImage: string;
 }
-export function TestimonyCard(props: TestimonyCardProps) {
+export default function TestimonyCard(props: TestimonyCardProps) {
     return (
         <div className="p-8 rounded-xl bg-background-fg flex flex-col hover:brightness-90 transition-all duration-300">
             <img

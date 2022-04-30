@@ -1,6 +1,7 @@
-import { SocialLinks } from "./social-links";
+/* eslint-disable @next/next/no-img-element */
+import SocialLinks from "./social-links";
 
-export function Footer() {
+export default function Footer() {
     return (
         <footer className="flex sm:flex-row flex-col pt-6 sm:pt-0 h-28 w-full bg-background-fg relative mt-6">
             <div className="flex flex-col items-center justify-end w-full mb-2">

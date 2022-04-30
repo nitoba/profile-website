@@ -1,4 +1,4 @@
-export function ContactMe() {
+export default function ContactMe() {
     return (
         <section id="contact" className="mt-24 flex flex-col items-center justify-center">
             <h2 className="flex text-text-title text-3xl items-center justify-center text-center">Entre em contato comigo</h2>

@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import { useState } from 'react'
 import styles from '../../styles/about-me.module.css'
-import { ModalHistory } from './modal-history'
-import { SocialLinks } from './social-links'
+import  ModalHistory  from './modal-history'
+import SocialLinks from './social-links'
 
-export function AboutMe() {
+export default function AboutMe() {
   const [modalIsOpen, setModalIsOpen] = useState(false)
 
   return (
