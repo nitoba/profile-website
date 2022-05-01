@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img alt="preview image" src=".github/preview.png">
+</p>
 
-## Getting Started
+<p align="center">
+  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=131313&labelColor=323A46" alt="License">
+  
+  <img src="https://img.shields.io/github/forks/NitoBa/profile-website?label=forks&message=MIT&color=131313&labelColor=323A46" alt="Forks">
 
-First, run the development server:
+  <img src="https://img.shields.io/github/stars/NitoBa/profile-website?label=stars&message=MIT&color=131313&labelColor=323A46" alt="Stars">
+</p>
+
+<h1 align="center">
+</h1>
+
+<br>
+
+## 🧪 Technologies
+
+This project was developed using the following technologies:
+
+- [NextJS](https://nextjs.org/)
+- [Tailwind Css](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+
+## 🚀 Getting started
+
+Clone the project and access the folder.
 
 ```bash
-npm run dev
-# or
+git clone https://github.com/NitoBa/profile-website.git
+
+cd profile-website
+```
+
+Run this command to install the dependencies.
+
+```bash
+yarn install
+
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔖 Layout
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+You can view the project through the links below:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- [Live Preview](https://profile-website-murex.vercel.app/)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Remembering that you need to have a [Figma](http://figma.com/) account to access it.
 
-## Learn More
+## 📝 License
 
-To learn more about Next.js, take a look at the following resources:
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Made with 💜 by [Bruno Alves](https://profile-website-murex.vercel.app/) 👋
