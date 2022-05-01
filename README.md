@@ -47,8 +47,6 @@ You can view the project through the links below:
 
 - [Live Preview](https://profile-website-murex.vercel.app/)
 
-Remembering that you need to have a [Figma](http://figma.com/) account to access it.
-
 ## 📝 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
