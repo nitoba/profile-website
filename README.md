@@ -45,7 +45,7 @@ yarn dev
 
 You can view the project through the links below:
 
-- [Live Preview](https://profile-website-murex.vercel.app/)
+- [Live Preview](https://nitodev.vercel.app/)
 
 ## 📝 License
 
