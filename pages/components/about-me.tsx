@@ -14,7 +14,7 @@ export default function AboutMe() {
       }
       <section id="about" className='sm:flex sm:flex-cols lg:grid lg:grid-cols-2 mt-28 gap-x-7'>
         <div className='w-full h-12'>
-          <span className='text-green font-light text-xl'>SOBRE MIM</span>
+          <span className='text-green-500 font-light text-xl'>SOBRE MIM</span>
           <h2 className="text-text-title text-3xl mt-5">Olá 👋🏽 prazer, Bruno.</h2>
           <p className='text-text-body text-ellipsis text-left mt-5 line-clamp-3'>
             Sou um desenvolvedor apaixonado por tecnologias que fazem parte do ecosistema backend, front end e mobile. 
@@ -31,7 +31,7 @@ export default function AboutMe() {
             mt-5
             block
             hover:opacity-70
-            hover:text-red
+            hover:text-red-500
             transition-all
             duration-200
             cursor-pointer'
@@ -48,31 +48,31 @@ export default function AboutMe() {
             <a href="https://blokbioscience.com.br/" target="_blank" rel="noreferrer">
               <li className="flex gap-4 items-center mb-5 group">
                 <img src="assets/icons/check.svg" alt="Check icon" />
-                <span className="group-hover:text-red transition-all duration-300 text-text-body">Dev Mobile at Blok Bio Science</span>
+                <span className="group-hover:text-red-500 transition-all duration-300 text-text-body">Dev Mobile at Blok Bio Science</span>
               </li>
             </a>
             <a href="https://globalpandemicshield.com" target="_blank" rel="noreferrer">
               <li className="flex gap-4 items-center mb-5 group">
                 <img src="assets/icons/check.svg" alt="Check icon" />
-                <span className="group-hover:text-red transition-all duration-300 text-text-body">Full Stack Dev at Global Pandemic Shield</span>
+                <span className="group-hover:text-red-500 transition-all duration-300 text-text-body">Full Stack Dev at Global Pandemic Shield</span>
               </li>
             </a>
             <a href="https://www.youtube.com/watch?v=7eSJuPSfGrQ" target="_blank" rel="noreferrer">
               <li className="flex gap-4 items-center mb-5 group">
                 <img src="assets/icons/check.svg" alt="Check icon" />
-                <span className="group-hover:text-red transition-all duration-300 text-text-body">Palestrante no Meetup da Flutterando</span>
+                <span className="group-hover:text-red-500 transition-all duration-300 text-text-body">Palestrante no Meetup da Flutterando</span>
               </li>
             </a>
             <a href="https://maratona.brasilmaisti.com.br/finalistas" target="_blank" rel="noreferrer">
               <li className="flex gap-4 items-center mb-5 group">
                 <img src="assets/icons/check.svg" alt="Check icon" />
-                <span className="group-hover:text-red transition-all duration-300 text-text-body">Finalista Maratona Unicef Samsung</span>
+                <span className="group-hover:text-red-500 transition-all duration-300 text-text-body">Finalista Maratona Unicef Samsung</span>
               </li>
             </a>
             <a href="https://sthorm.io/" target="_blank" rel="noreferrer">
               <li className="flex gap-4 items-center mb-5 group">
                 <img src="assets/icons/check.svg" alt="Check icon" />
-                <span className="group-hover:text-red transition-all duration-300 text-text-body">Flutter Mobile Developer at Sthorm</span>
+                <span className="group-hover:text-red-500 transition-all duration-300 text-text-body">Flutter Mobile Developer at Sthorm</span>
               </li>
             </a>
           </ul>

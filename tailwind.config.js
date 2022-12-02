@@ -1,36 +1,41 @@
 module.exports = {
-  mode: 'jit',
+  mode: "jit",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   variants: {
     extend: {
-      display: ['group-hover'],
+      display: ["group-hover"],
     },
   },
   theme: {
-    extend: {},
-    screens: {
-      'tb': '990px',
-      'sm': '640px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1280px',
-      '2xl': '1536px',
+    extend: {
+      colors: {
+        "modal-bg": "rgba(0, 0, 0, 0.5)",
+        "background-bg": "#111519",
+        "background-fg": "#212529",
+        "text-title": "#e9ecef",
+        "text-body": "#ced4da",
+        red: {
+          500: "#f7326e",
+        },
+        green: {
+          500: "#3cb86c",
+        },
+        blue: {
+          500: "#1f7ff0",
+        },
+      },
     },
-    colors: {
-      "modal-bg": "rgba(0, 0, 0, 0.5)",
-      "background-bg": "var(--background-bg)", 
-      "background-fg": "var(--background-fg)", 
-      "text-title": "var(--text-title)", 
-      "text-body": "var(--text-body)",
-      "red": "var(--red)",
-      "green": "var(--green)",
-      "blue": "var(--blue)",
+    screens: {
+      tb: "990px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
     },
   },
-  plugins: [
-    require('@tailwindcss/line-clamp'),
-  ],
-}
+  plugins: [require("@tailwindcss/line-clamp")],
+};

@@ -39,7 +39,7 @@ export default function Menu({ onClose }: { onClose: () => void }) {
                 <ul className="flex flex-col">
                     <li className="text-text-title text-right group"> 
                         <a 
-                            className="md:group-hover:text-red transition-all duration-300" 
+                            className="md:group-hover:text-red-500 transition-all duration-300" 
                             href="#about" 
                             onClick={closeMenu}>
                             Sobre mim
@@ -47,7 +47,7 @@ export default function Menu({ onClose }: { onClose: () => void }) {
                     </li>
                     <li className="mt-6 text-text-title text-right group"> 
                         <a 
-                            className="md:group-hover:text-red transition-all duration-300" 
+                            className="md:group-hover:text-red-500 transition-all duration-300" 
                             href="#testimonials" 
                             onClick={closeMenu}>
                             Depoimentos
@@ -55,7 +55,7 @@ export default function Menu({ onClose }: { onClose: () => void }) {
                     </li>
                     <li className="mt-6 text-text-title text-right group"> 
                         <a 
-                            className="md:group-hover:text-red transition-all duration-300" 
+                            className="md:group-hover:text-red-500 transition-all duration-300" 
                             href="#techs" 
                             onClick={closeMenu}>
                             Tecnologias
@@ -63,7 +63,7 @@ export default function Menu({ onClose }: { onClose: () => void }) {
                     </li>
                     <li className="mt-6 text-text-title text-right group"> 
                         <a 
-                            className="md:group-hover:text-red transition-all duration-300" 
+                            className="md:group-hover:text-red-500 transition-all duration-300" 
                             href="#contact"
                             onClick={closeMenu}>
                             Contato
