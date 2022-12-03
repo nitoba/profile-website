@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { ReactNode } from "react";
 import Footer from "../src/components/footer";
 import Header from "../src/components/header";
@@ -11,8 +10,8 @@ type Props = {
 export default function RootLayout({ children }: Props) {
   return (
     <html>
-      <Head>
-        <title>Site</title>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
           content="Seja bem vindo ao meu site pessoal. Aqui você pode conferir um pouco sobre minhas experiências como desenvolvedor e navegar sobre os projetos que desenvolvo"
@@ -53,7 +52,8 @@ export default function RootLayout({ children }: Props) {
           name="twitter:image"
           content="https://i.ibb.co/m8Bfyq1/profile-2.jpg"
         />
-      </Head>
+        <title>Bruno Alves - Full Stack Dev</title>
+      </head>
       <body>
         <div className="max-w-[1220px] my-0 mx-auto px-[1.5rem]">
           <Header />
