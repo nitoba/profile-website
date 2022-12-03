@@ -1,11 +1,11 @@
-import { ReactNode } from "react";
-import Footer from "../src/components/footer";
-import Header from "../src/components/header";
-import "../src/styles/globals.css";
+import { ReactNode } from 'react'
+import Footer from '../src/components/footer'
+import Header from '../src/components/header'
+import '../src/styles/globals.css'
 
 type Props = {
-  children: ReactNode;
-};
+  children: ReactNode
+}
 
 export default function RootLayout({ children }: Props) {
   return (
@@ -62,5 +62,5 @@ export default function RootLayout({ children }: Props) {
         <Footer />
       </body>
     </html>
-  );
+  )
 }
