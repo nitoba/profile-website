@@ -1,4 +1,5 @@
 'use client'
+import { CaretUp } from 'phosphor-react'
 import SocialLinks from './social-links'
 
 export default function Footer() {
@@ -27,7 +28,7 @@ export default function Footer() {
                 mr-0
                 "
       >
-        <img src="assets/icons/arrow-up.svg" alt="Arrow up icon" />
+        <CaretUp className="text-green-500" size={24} />
         <span>Voltar ao topo</span>
       </button>
     </footer>
