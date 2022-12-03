@@ -1,6 +1,5 @@
 import TestimonyCard from './testimony-card'
 
-/* eslint-disable @next/next/no-img-element */
 export default function Testimonies() {
   return (
     <section id="testimonials" className="flex flex-col w-full mt-28">

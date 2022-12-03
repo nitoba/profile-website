@@ -1,7 +1,8 @@
+'use client'
+
 import { useState } from 'react'
 import Modal from './modal'
 
-/* eslint-disable @next/next/no-img-element */
 export default function TechsUsed() {
   const [modalIsOpen, setModalIsOpen] = useState(false)
   const [selectedTech, setSelectedTech] = useState<

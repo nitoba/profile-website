@@ -1,6 +1,5 @@
 import SocialLinks from './social-links'
 import { motion, useAnimation } from 'framer-motion'
-/* eslint-disable @next/next/no-img-element */
 type ModalHistoryProps = {
   onClose: () => void
 }
