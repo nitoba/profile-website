@@ -1,15 +1,18 @@
 import { ReactNode } from 'react'
 import Footer from '../src/components/footer'
 import Header from '../src/components/header'
+import { Poppins } from '@next/font/google'
 import '../src/styles/globals.css'
 
 type Props = {
   children: ReactNode
 }
 
+const poppins = Poppins({ weight: ['400', '500', '600', '700'] })
+
 export default function RootLayout({ children }: Props) {
   return (
-    <html>
+    <html className={poppins.className}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta

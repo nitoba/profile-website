@@ -1,6 +1,6 @@
 import { motion, useAnimation } from 'framer-motion'
 import { ReactNode } from 'react'
-/* eslint-disable @next/next/no-img-element */
+import { X } from 'phosphor-react'
 type ModalProps = {
   onClose: () => void
   children: ReactNode
@@ -42,11 +42,9 @@ export default function Modal({ onClose, children }: ModalProps) {
         className="bg-background-fg xl:w-[40%] w-[80%] rounded-xl px-6 py-9 "
       >
         <header className="flex justify-end mb-8">
-          <img
-            onClick={onCloseModal}
-            className="cursor-pointer hover:scale-125 transition-all duration-300"
-            src="assets/icons/close.svg"
-            alt="Close icon"
+          <X
+            size={32}
+            className="cursor-pointer hover:scale-125 transition-all duration-300 text-red-500"
           />
         </header>
         <main className="w-full flex justify-center">{children}</main>

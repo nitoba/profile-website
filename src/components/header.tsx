@@ -1,6 +1,8 @@
 'use client'
 import { useState } from 'react'
+import Image from 'next/image'
 import Menu from './menu'
+import { List } from 'phosphor-react'
 
 export default function Header() {
   const [menuIsOpen, setMenuIsOpen] = useState(false)
@@ -9,11 +11,15 @@ export default function Header() {
       {menuIsOpen && <Menu onClose={() => setMenuIsOpen(false)} />}
       <header className="pt-12 flex justify-between items-center">
         <div className="flex items-center justify-center">
-          <img
-            className="h-12 w-12 rounded-full"
-            src="https://github.com/NitoBa.png"
-            alt="My profile foto"
-          />
+          <div className="relative h-12 w-12">
+            <Image
+              className="h-full w-full rounded-full"
+              src="https://github.com/NitoBa.png"
+              alt="My profile foto"
+              style={{ objectFit: 'cover' }}
+              fill
+            />
+          </div>
           <div className="ml-3">
             <h3 className="text-text-title text-base leading-none">
               Bruno Alves
@@ -27,11 +33,7 @@ export default function Header() {
           onClick={() => setMenuIsOpen(true)}
           className="hover:opacity-80 transition-all duration-200"
         >
-          <img
-            className="invert-svg"
-            src="assets/icons/menu.svg"
-            alt="Menu icon"
-          />
+          <List size={32} weight="fill" className="text-red-500" />
         </button>
       </header>
     </>

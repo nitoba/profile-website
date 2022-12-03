@@ -1,4 +1,5 @@
 import { motion, useAnimation } from 'framer-motion'
+import { X } from 'phosphor-react'
 import SocialLinks from './social-links'
 
 export default function Menu({ onClose }: { onClose: () => void }) {
@@ -27,11 +28,9 @@ export default function Menu({ onClose }: { onClose: () => void }) {
       >
         <div className="flex flex-col items-end p-8 justify-between h-[100%]">
           <header>
-            <img
-              onClick={closeMenu}
-              className="cursor-pointer hover:scale-125 transition-all duration-300"
-              src="assets/icons/close.svg"
-              alt="Close icon"
+            <X
+              size={32}
+              className="text-red-500 cursor-pointer duration-200 hover:opacity-80"
             />
           </header>
           <nav>

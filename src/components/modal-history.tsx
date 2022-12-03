@@ -45,12 +45,6 @@ export default function ModalHistory({ onClose }: ModalHistoryProps) {
             src="https://github.com/NitoBa.png"
             alt="Profile avatar image"
           />
-          <img
-            onClick={onCloseModal}
-            className="cursor-pointer hover:scale-125 transition-all duration-300"
-            src="assets/icons/close.svg"
-            alt="Close icon"
-          />
         </header>
 
         <section className="mt-8">
