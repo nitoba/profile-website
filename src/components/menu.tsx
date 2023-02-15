@@ -1,8 +1,8 @@
 import { motion, useAnimation } from 'framer-motion'
 import { X } from 'phosphor-react'
-import SocialLinks from './social-links'
+import { SocialLinks } from './social-links'
 
-export default function Menu({ onClose }: { onClose: () => void }) {
+export function Menu({ onClose }: { onClose: () => void }) {
   const animationOpen = { transform: 'translateY(0rem)', opacity: 1 }
   const animationClose = { transform: 'translateY(-24rem)', opacity: 0 }
 

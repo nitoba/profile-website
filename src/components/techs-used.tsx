@@ -1,9 +1,9 @@
 'use client'
 
 import { useState } from 'react'
-import Modal from './modal'
+import { Modal } from './modal'
 
-export default function TechsUsed() {
+export function TechsUsed() {
   const [modalIsOpen, setModalIsOpen] = useState(false)
   const [selectedTech, setSelectedTech] = useState<
     'node' | 'react' | 'flutter'

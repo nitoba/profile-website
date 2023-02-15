@@ -1,10 +1,10 @@
 'use client'
 import { useState } from 'react'
 import styles from '../styles/about-me.module.css'
-import ModalHistory from './modal-history'
-import SocialLinks from './social-links'
+import { ModalHistory } from './modal-history'
+import { SocialLinks } from './social-links'
 
-export default function AboutMe() {
+export function AboutMe() {
   const [modalIsOpen, setModalIsOpen] = useState(false)
 
   return (

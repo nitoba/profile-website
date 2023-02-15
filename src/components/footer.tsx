@@ -1,14 +1,14 @@
 'use client'
 import { CaretUp } from 'phosphor-react'
-import SocialLinks from './social-links'
+import { SocialLinks } from './social-links'
 
-export default function Footer() {
+export function Footer() {
   return (
     <footer className="flex sm:flex-row flex-col pt-6 sm:pt-0 h-28 w-full bg-background-fg relative mt-6">
       <div className="flex flex-col items-center justify-end w-full mb-2">
         <SocialLinks />
         <span className="text-text-body font-light text-xs mt-3">
-          © 2020 Nito Ba. All rights reserved.
+          © {new Date().getFullYear()} Nito Ba. All rights reserved.
         </span>
       </div>
       <button

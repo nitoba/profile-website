@@ -6,7 +6,7 @@ type ModalProps = {
   children: ReactNode
 }
 
-export default function Modal({ onClose, children }: ModalProps) {
+export function Modal({ onClose, children }: ModalProps) {
   const animationOpen = { opacity: 1, scale: 1 }
   const animationClose = { opacity: 0, scale: 0.9 }
 

@@ -1,10 +1,10 @@
 'use client'
 import { useState } from 'react'
 import Image from 'next/image'
-import Menu from './menu'
+import { Menu } from './menu'
 import { List } from 'phosphor-react'
 
-export default function Header() {
+export function Header() {
   const [menuIsOpen, setMenuIsOpen] = useState(false)
   return (
     <>

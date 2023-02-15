@@ -1,6 +1,6 @@
-import TestimonyCard from './testimony-card'
+import { TestimonyCard } from './testimony-card'
 
-export default function Testimonies() {
+export function Testimonies() {
   return (
     <section id="testimonials" className="flex flex-col w-full mt-28">
       <h2 className="text-text-title text-3xl">

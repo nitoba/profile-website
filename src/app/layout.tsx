@@ -1,8 +1,8 @@
+import '../styles/globals.css'
 import { ReactNode } from 'react'
-import Footer from '../src/components/footer'
-import Header from '../src/components/header'
 import { Poppins } from '@next/font/google'
-import '../src/styles/globals.css'
+import { Header } from '../components/header'
+import { Footer } from '../components/footer'
 
 type Props = {
   children: ReactNode
@@ -58,10 +58,10 @@ export default function RootLayout({ children }: Props) {
         <title>Bruno Alves - Full Stack Dev</title>
       </head>
       <body>
-        <div className="max-w-[1220px] my-0 mx-auto px-[1.5rem]">
+        <div className="w-full max-w-[1220px] mx-auto px-[1.5rem]">
           <Header />
-          {children}
         </div>
+        {children}
         <Footer />
       </body>
     </html>

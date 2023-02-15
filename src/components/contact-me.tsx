@@ -1,4 +1,4 @@
-export default function ContactMe() {
+export function ContactMe() {
   return (
     <section
       id="contact"

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { InstagramLogo, LinkedinLogo, GithubLogo } from 'phosphor-react'
 
-export default function SocialLinks() {
+export function SocialLinks() {
   return (
     <div className="flex items-center gap-8">
       <Link
