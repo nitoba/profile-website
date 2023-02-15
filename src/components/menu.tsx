@@ -65,6 +65,15 @@ export function Menu({ onClose }: { onClose: () => void }) {
               <li className="mt-6 text-text-title text-right group">
                 <a
                   className="md:group-hover:text-red-500 transition-all duration-300"
+                  href="#portfolio"
+                  onClick={closeMenu}
+                >
+                  Portfolio
+                </a>
+              </li>
+              <li className="mt-6 text-text-title text-right group">
+                <a
+                  className="md:group-hover:text-red-500 transition-all duration-300"
                   href="#contact"
                   onClick={closeMenu}
                 >

@@ -22,6 +22,7 @@ This project was developed using the following technologies:
 - [NextJS](https://nextjs.org/)
 - [Tailwind Css](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
+- [CVA](https://cva.style/docs)
 
 ## 🚀 Getting started
 
@@ -49,7 +50,8 @@ You can view the project through the links below:
 
 ## 📝 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file
+for details.
 
 ---
 

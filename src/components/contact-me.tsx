@@ -1,3 +1,6 @@
+import Link from 'next/link'
+import { Button } from './button'
+
 export function ContactMe() {
   return (
     <section
@@ -7,11 +10,9 @@ export function ContactMe() {
       <h2 className="flex text-text-title text-3xl items-center justify-center text-center">
         Entre em contato comigo
       </h2>
-      <a href="mailto:nito.ba.dev@gmail.com">
-        <button className="hover:brightness-75 transition-all duration-300 mt-8 p-3 bg-red-500 rounded-md flex items-center justify-center text-text-title">
-          Entrar em contato
-        </button>
-      </a>
+      <Link href="mailto:nito.ba.dev@gmail.com">
+        <Button className="mt-8"> Entrar em contato</Button>
+      </Link>
     </section>
   )
 }
