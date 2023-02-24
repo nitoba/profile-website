@@ -2,23 +2,29 @@
 
 import { GithubLogo, Link } from 'phosphor-react'
 import NextLink from 'next/link'
-export function CardProject() {
+import Image from 'next/image'
+import { Project } from '../types/project'
+
+type Props = {
+  project: Project
+}
+
+export function CardProject({ project }: Props) {
   return (
     <div className="rounded-2xl relative w-full">
       <header className="flex items-center justify-between absolute top-4 rounded-md px-4 w-full">
-        <h3 className="text-zinc-300 text-lg font-medium line-clamp-2 leading-tight">
-          Title of my project asdasd asdasdasdasdkjha sadlhskadjhksjdha
-          kajshdakjshdkajs dakjshdakjhsd aksdjhakjsdh
+        <h3 className="z-10 text-zinc-300 text-lg font-medium line-clamp-2 leading-tight">
+          {project.title}
         </h3>
         <div className="flex gap-2">
           <NextLink
-            href={'#'}
+            href={'/'}
             className="bg-zinc-700 rounded w-6 h-6 text-white hover:opacity-80 transition-opacity flex items-center justify-center"
           >
             <GithubLogo />
           </NextLink>
           <NextLink
-            href={'#'}
+            href={'/'}
             className="bg-zinc-700 rounded w-6 h-6 text-white hover:opacity-80 transition-opacity flex items-center justify-center"
           >
             <Link />
@@ -26,17 +32,21 @@ export function CardProject() {
         </div>
       </header>
 
-      <img
-        className="object-cover w-full h-full overflow-hidden rounded-2xl"
-        src="https://github.com/nitoba.png"
-        alt=""
-      />
-      <footer className="bg-zinc-700/60 absolute bottom-4 left-4 right-4 rounded-lg px-4 py-3 backdrop-blur-sm">
+      {!project.thumbnailUrl ? (
+        <div className="bg-zinc-700 blur-[2px] h-full rounded-2xl" />
+      ) : (
+        <Image
+          className="object-cover w-96 h-96 overflow-hidden rounded-2xl bg-zinc-600"
+          src={project.thumbnailUrl ?? ''}
+          width="400"
+          height="400"
+          alt=""
+        />
+      )}
+
+      <footer className="bg-zinc-700/60 absolute bottom-4 left-4 right-4 rounded-lg px-4 py-3 backdrop-blur-md">
         <p className="text-xs text-zinc-300 line-clamp-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quidem
-          possimus necessitatibus nam eligendi repudiandae aut corrupti eum
-          architecto quo, voluptatum enim nisi incidunt maiores eaque. Ullam ad
-          nesciunt dolor!
+          {project.description}
         </p>
       </footer>
     </div>

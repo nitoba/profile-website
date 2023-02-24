@@ -1,6 +1,6 @@
-import type { Metadata } from 'next'
 import { ReactNode } from 'react'
-import { Poppins } from '@next/font/google'
+import { Metadata } from 'next/types'
+import { Poppins } from 'next/font/google'
 import { Header } from '../components/header'
 import { Footer } from '../components/footer'
 
@@ -54,9 +54,6 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Props) {
   return (
     <html className={poppins.className}>
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </head>
       <body>
         <div className="w-full max-w-[1220px] mx-auto px-[1.5rem]">
           <Header />

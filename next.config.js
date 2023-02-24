@@ -3,9 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
   experimental: {
     appDir: true,
+    typedRoutes: true,
   },
   images: {
-    domains: ['github.com'],
+    domains: ['github.com', 'cdn-icons-png.flaticon.com'],
   },
 }
 

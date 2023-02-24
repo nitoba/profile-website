@@ -8,6 +8,7 @@ export default function Home() {
     <div className="w-full max-w-[1220px] mx-auto px-[1.6rem]">
       <AboutMe />
       <TechsUsed />
+      {/* @ts-expect-error Server Component */}
       <ProjectsList />
       <ContactMe />
     </div>
